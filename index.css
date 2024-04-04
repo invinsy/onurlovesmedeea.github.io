@@ -1,0 +1,71 @@
+@font-face {
+    font-family: ANTL;
+    src: url(./Fonts/antipasto.light.ttf);
+}
+
+@font-face {
+    font-family: ANTM;
+    src: url(./Fonts/antipasto.medium.ttf);
+}
+
+@font-face {
+    font-family: ESTQ;
+    src: url(./Fonts/esthetique.otf);
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(./Fonts/LibreBodoni-Bold.otf);
+}
+
+@font-face {
+    font-family: Henri;
+    src: url(./Fonts/HenriDidot.otf);
+}
+
+body {
+    /* background: linear-gradient(0.25turn, rgba(229, 62, 92, 0.5), rgb(195, 46, 96));   */
+    background: rgb(5, 5, 5);
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: Henri;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.subtitle {
+    font-family: Henri;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3px;
+}
+
+.line {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.text1-container, .text2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text1, .text2 {
+    font-family: Henri;
+    color: aliceblue;
+    font-size: 30px;
+}
